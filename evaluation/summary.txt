@@ -1,0 +1,201 @@
+Ex: fine tune mbert on our data set for multilingual
+================================================================================
+FINAL EVALUATION SUMMARY - Task 1
+================================================================================
+File                           Lang   Domain       PCC_V      PCC_A      RMSE_VA   
+--------------------------------------------------------------------------------
+pred_eng_laptop.jsonl          eng    laptop       0.8355     0.5302     1.1952    
+pred_eng_restaurant.jsonl      eng    restaurant   0.9128     0.6401     1.0378    
+pred_jpn_finance.jsonl         jpn    finance      0.7854     0.5135     1.0225    
+pred_jpn_hotel.jsonl           jpn    hotel        0.8361     0.5479     1.1338    
+pred_rus_restaurant.jsonl      rus    restaurant   0.8544     0.4948     1.4204    
+pred_tat_restaurant.jsonl      tat    restaurant   0.6885     0.5170     1.7245    
+pred_ukr_restaurant.jsonl      ukr    restaurant   0.9107     0.5215     1.3361    
+pred_zho_finance.jsonl         zho    finance      0.7652     0.5795     0.5642    
+pred_zho_laptop.jsonl          zho    laptop       0.8359     0.6727     0.8261    
+pred_zho_restaurant.jsonl      zho    restaurant   0.8365     0.7158     0.7992    
+--------------------------------------------------------------------------------
+AVERAGE                                            0.8261     0.5733     1.1060    
+================================================================================
+
+Ex: fine tune mdeberta on our data set for multilingual
+================================================================================
+FINAL EVALUATION SUMMARY - Task 1
+================================================================================
+File                           Lang   Domain       PCC_V      PCC_A      RMSE_VA   
+--------------------------------------------------------------------------------
+pred_eng_laptop.jsonl          eng    laptop       0.9168     0.6050     0.9661    
+pred_eng_restaurant.jsonl      eng    restaurant   0.9254     0.7133     0.9352    
+pred_jpn_finance.jsonl         jpn    finance      0.8772     0.6403     0.8353    
+pred_jpn_hotel.jsonl           jpn    hotel        0.9209     0.5705     0.9452    
+pred_rus_restaurant.jsonl      rus    restaurant   0.9190     0.5735     1.2751    
+pred_tat_restaurant.jsonl      tat    restaurant   0.8821     0.5175     1.3481    
+pred_ukr_restaurant.jsonl      ukr    restaurant   0.9098     0.5401     1.3132    
+pred_zho_finance.jsonl         zho    finance      0.8625     0.5755     0.4944    
+pred_zho_laptop.jsonl          zho    laptop       0.8948     0.7333     0.6979    
+pred_zho_restaurant.jsonl      zho    restaurant   0.8693     0.7177     0.7619    
+--------------------------------------------------------------------------------
+AVERAGE                                            0.8978     0.6187     0.9572    
+================================================================================
+
+Ex: fine tune xlm base on our data set for multilingual
+================================================================================
+FINAL EVALUATION SUMMARY - Task 1
+================================================================================
+File                           Lang   Domain       PCC_V      PCC_A      RMSE_VA   
+--------------------------------------------------------------------------------
+pred_eng_laptop.jsonl          eng    laptop       0.9053     0.5889     1.0079    
+pred_eng_restaurant.jsonl      eng    restaurant   0.9202     0.7085     0.9770    
+pred_jpn_finance.jsonl         jpn    finance      0.7699     0.6306     1.0148    
+pred_jpn_hotel.jsonl           jpn    hotel        0.9094     0.5683     0.9690    
+pred_rus_restaurant.jsonl      rus    restaurant   0.9472     0.5564     1.2125    
+pred_tat_restaurant.jsonl      tat    restaurant   0.7387     0.4867     1.6495    
+pred_ukr_restaurant.jsonl      ukr    restaurant   0.9359     0.5470     1.2776    
+pred_zho_finance.jsonl         zho    finance      0.8371     0.6355     0.5031    
+pred_zho_laptop.jsonl          zho    laptop       0.8831     0.7121     0.7356    
+pred_zho_restaurant.jsonl      zho    restaurant   0.8650     0.7289     0.7644    
+--------------------------------------------------------------------------------
+AVERAGE                                            0.8712     0.6163     1.0111    
+================================================================================
+
+Ex: fine tune xlm large on our data set for multilingual
+================================================================================
+FINAL EVALUATION SUMMARY - Task 1
+================================================================================
+File                           Lang   Domain       PCC_V      PCC_A      RMSE_VA   
+--------------------------------------------------------------------------------
+pred_eng_laptop.jsonl          eng    laptop       0.9186     0.6098     0.9715    
+pred_eng_restaurant.jsonl      eng    restaurant   0.9324     0.7218     0.9362    
+pred_jpn_finance.jsonl         jpn    finance      0.8761     0.6471     0.8244    
+pred_jpn_hotel.jsonl           jpn    hotel        0.9159     0.5654     0.9503    
+pred_rus_restaurant.jsonl      rus    restaurant   0.9462     0.5749     1.2394    
+pred_tat_restaurant.jsonl      tat    restaurant   0.6598     0.4851     1.7351    
+pred_ukr_restaurant.jsonl      ukr    restaurant   0.9416     0.5709     1.2408    
+pred_zho_finance.jsonl         zho    finance      0.8441     0.6269     0.4960    
+pred_zho_laptop.jsonl          zho    laptop       0.9091     0.7405     0.6745    
+pred_zho_restaurant.jsonl      zho    restaurant   0.8759     0.7300     0.7485    
+--------------------------------------------------------------------------------
+AVERAGE                                            0.8820     0.6272     0.9817    
+================================================================================
+
+Ex: fine tune mdebrta  on our data + additional data set for multilingual
+================================================================================
+FINAL EVALUATION SUMMARY - Task 1
+================================================================================
+File                           Lang   Domain       PCC_V      PCC_A      RMSE_VA   
+--------------------------------------------------------------------------------
+pred_eng_laptop.jsonl          eng    laptop       0.9305     0.6314     0.9150    
+pred_eng_restaurant.jsonl      eng    restaurant   0.9277     0.6967     0.9215    
+pred_jpn_finance.jsonl         jpn    finance      0.8810     0.6267     0.8287    
+pred_jpn_hotel.jsonl           jpn    hotel        0.9225     0.5581     0.9560    
+pred_rus_restaurant.jsonl      rus    restaurant   0.9508     0.5661     1.1958    
+pred_tat_restaurant.jsonl      tat    restaurant   0.8875     0.5378     1.3308    
+pred_ukr_restaurant.jsonl      ukr    restaurant   0.9324     0.5132     1.2706    
+pred_zho_finance.jsonl         zho    finance      0.8601     0.5892     0.5186    
+pred_zho_laptop.jsonl          zho    laptop       0.8933     0.7271     0.7309    
+pred_zho_restaurant.jsonl      zho    restaurant   0.8588     0.7314     0.7942    
+--------------------------------------------------------------------------------
+AVERAGE                                            0.9045     0.6178     0.9462    
+================================================================================
+
+Ex: fine tune mdebrta  on our data + additional data set + augmented data set by doing 2d VA bin technique for english
+================================================================================
+FINAL EVALUATION SUMMARY - Task 1
+================================================================================
+File                           Lang   Domain       PCC_V      PCC_A      RMSE_VA   
+--------------------------------------------------------------------------------
+pred_eng_laptop.jsonl          eng    laptop       0.8338     0.4412     2.2242    
+pred_eng_restaurant.jsonl      eng    restaurant   0.8318     0.5671     1.6634    
+pred_jpn_finance.jsonl         jpn    finance      0.8480     0.6032     0.9099    
+pred_jpn_hotel.jsonl           jpn    hotel        0.9174     0.5577     0.9648    
+pred_rus_restaurant.jsonl      rus    restaurant   0.9321     0.5355     1.2702    
+pred_tat_restaurant.jsonl      tat    restaurant   0.8786     0.5781     1.3523    
+pred_ukr_restaurant.jsonl      ukr    restaurant   0.9207     0.5369     1.3019    
+pred_zho_finance.jsonl         zho    finance      0.8434     0.6044     0.5105    
+pred_zho_laptop.jsonl          zho    laptop       0.8851     0.7023     0.7317    
+pred_zho_restaurant.jsonl      zho    restaurant   0.8500     0.6927     0.7888    
+--------------------------------------------------------------------------------
+AVERAGE                                            0.8741     0.5819     1.1718    
+================================================================================
+
+
+Ex: fine tune mdebrta  on our data + additional data set for multilingual + recale VA from 1-9 to -1 till 1 and add gaussian noise 
+================================================================================
+FINAL EVALUATION SUMMARY - Task 1
+================================================================================
+File                           Lang   Domain       PCC_V      PCC_A      RMSE_VA   
+--------------------------------------------------------------------------------
+pred_eng_laptop.jsonl          eng    laptop       0.9242     0.5985     0.9542    
+pred_eng_restaurant.jsonl      eng    restaurant   0.9195     0.6982     0.9111    
+pred_jpn_finance.jsonl         jpn    finance      0.9113     0.6595     0.7520    
+pred_jpn_hotel.jsonl           jpn    hotel        0.9175     0.5909     0.9484    
+pred_rus_restaurant.jsonl      rus    restaurant   0.9302     0.5243     1.2554    
+pred_tat_restaurant.jsonl      tat    restaurant   0.9091     0.5922     1.2840    
+pred_ukr_restaurant.jsonl      ukr    restaurant   0.9168     0.5034     1.3166    
+pred_zho_finance.jsonl         zho    finance      0.8570     0.6212     0.4792    
+pred_zho_laptop.jsonl          zho    laptop       0.8913     0.7207     0.7114    
+pred_zho_restaurant.jsonl      zho    restaurant   0.8707     0.7462     0.7536    
+--------------------------------------------------------------------------------
+AVERAGE                                            0.9047     0.6255     0.9366    
+================================================================================
+
+Ex: fine tune mdebrta  on our data + additional data set for multilingual and add Concordance Correlation Coefficient for loss calcualtion 
+================================================================================
+FINAL EVALUATION SUMMARY - Task 1
+================================================================================
+File                           Lang   Domain       PCC_V      PCC_A      RMSE_VA   
+--------------------------------------------------------------------------------
+pred_eng_laptop.jsonl          eng    laptop       0.9210     0.5848     0.9821    
+pred_eng_restaurant.jsonl      eng    restaurant   0.9297     0.7129     0.8721    
+pred_jpn_finance.jsonl         jpn    finance      0.8779     0.6000     0.8607    
+pred_jpn_hotel.jsonl           jpn    hotel        0.9068     0.5400     1.0009    
+pred_rus_restaurant.jsonl      rus    restaurant   0.9260     0.5471     1.2268    
+pred_tat_restaurant.jsonl      tat    restaurant   0.8444     0.6261     1.3469    
+pred_ukr_restaurant.jsonl      ukr    restaurant   0.9146     0.5795     1.2820    
+pred_zho_finance.jsonl         zho    finance      0.8573     0.5643     0.5345    
+pred_zho_laptop.jsonl          zho    laptop       0.8922     0.7109     0.7289    
+pred_zho_restaurant.jsonl      zho    restaurant   0.8692     0.7075     0.7338    
+--------------------------------------------------------------------------------
+AVERAGE                                            0.8939     0.6173     0.9569    
+================================================================================
+
+
+Ex: fine tune mdebrta  on our data + additional data set for multilingual + recale VA from 1-9 to -1 till 1 and add gaussian noise + Savitzky–Golay filter
+================================================================================
+FINAL EVALUATION SUMMARY - Task 1
+================================================================================
+File                           Lang   Domain       PCC_V      PCC_A      RMSE_VA   
+--------------------------------------------------------------------------------
+pred_eng_laptop.jsonl          eng    laptop       0.9197     0.6153     0.9538    
+pred_eng_restaurant.jsonl      eng    restaurant   0.9251     0.7091     0.9178    
+pred_jpn_finance.jsonl         jpn    finance      0.8672     0.5940     0.8628    
+pred_jpn_hotel.jsonl           jpn    hotel        0.9189     0.5862     0.9348    
+pred_rus_restaurant.jsonl      rus    restaurant   0.9426     0.5686     1.2663    
+pred_tat_restaurant.jsonl      tat    restaurant   0.8672     0.5596     1.3860    
+pred_ukr_restaurant.jsonl      ukr    restaurant   0.9345     0.5126     1.3042    
+pred_zho_finance.jsonl         zho    finance      0.8520     0.6285     0.4850    
+pred_zho_laptop.jsonl          zho    laptop       0.9017     0.7305     0.6868    
+pred_zho_restaurant.jsonl      zho    restaurant   0.8739     0.7398     0.7442    
+--------------------------------------------------------------------------------
+AVERAGE                                            0.9003     0.6244     0.9542    
+================================================================================
+
+Ex : mderberta with orignal data + BT of english restaurant
+================================================================================
+FINAL EVALUATION SUMMARY - Task 1
+================================================================================
+File                           Lang   Domain       PCC_V      PCC_A      RMSE_VA   
+--------------------------------------------------------------------------------
+pred_eng_laptop.jsonl          eng    laptop       0.9142     0.5803     0.9970    
+pred_eng_restaurant.jsonl      eng    restaurant   0.9296     0.6941     0.9135    
+pred_jpn_finance.jsonl         jpn    finance      0.8787     0.5683     0.8633    
+pred_jpn_hotel.jsonl           jpn    hotel        0.9243     0.5704     0.9407    
+pred_rus_restaurant.jsonl      rus    restaurant   0.9392     0.4996     1.2728    
+pred_tat_restaurant.jsonl      tat    restaurant   0.8766     0.6182     1.3169    
+pred_ukr_restaurant.jsonl      ukr    restaurant   0.9306     0.5371     1.2455    
+pred_zho_finance.jsonl         zho    finance      0.8437     0.5628     0.5090    
+pred_zho_laptop.jsonl          zho    laptop       0.8489     0.6875     0.7943    
+pred_zho_restaurant.jsonl      zho    restaurant   0.8375     0.6762     0.8021    
+--------------------------------------------------------------------------------
+AVERAGE                                            0.8923     0.5994     0.9655    
+================================================================================

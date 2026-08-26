@@ -1,0 +1,188 @@
+Evaluation Results for: subtask_1_reg.zip
+============================================================
+Extracted from: subtask_1_reg.zip
+Prediction files found: 10
+============================================================
+
+================================================================================
+SemEval 2026 - Task 1 Evaluation (Subtask 1)
+================================================================================
+Using prediction directory: /var/folders/zn/lmxdw2s96vl_k2_29ksbdnf00000gn/T/tmpg43d8qlk/subtask_1
+
+
+[STEP 1] Downloading Gold Label Files...
+--------------------------------------------------------------------------------
+✓ Gold file already exists: gold_eng_laptop.jsonl
+✓ Gold file already exists: gold_eng_restaurant.jsonl
+✓ Gold file already exists: gold_jpn_finance.jsonl
+✓ Gold file already exists: gold_jpn_hotel.jsonl
+✓ Gold file already exists: gold_rus_restaurant.jsonl
+✓ Gold file already exists: gold_tat_restaurant.jsonl
+✓ Gold file already exists: gold_ukr_restaurant.jsonl
+✓ Gold file already exists: gold_zho_finance.jsonl
+✓ Gold file already exists: gold_zho_laptop.jsonl
+✓ Gold file already exists: gold_zho_restaurant.jsonl
+
+✓ Downloaded 10/10 gold files
+
+[STEP 2] Running Evaluation for Task 1...
+--------------------------------------------------------------------------------
+
+--- Evaluating pred_eng_laptop.jsonl ---
+  Gold: gold_data/gold_eng_laptop.jsonl
+  Pred: /var/folders/zn/lmxdw2s96vl_k2_29ksbdnf00000gn/T/tmpg43d8qlk/subtask_1/pred_eng_laptop.jsonl
+  Loading gold data...
+  Loaded 200 gold records
+  Loading prediction data...
+  Loaded 200 prediction records
+
+  Results:
+    PCC_V (Pearson Valence):  0.7831
+    PCC_A (Pearson Arousal):  0.4839
+    RMSE_VA (Normalized):     1.9892
+    Num Samples:              275
+
+--- Evaluating pred_eng_restaurant.jsonl ---
+  Gold: gold_data/gold_eng_restaurant.jsonl
+  Pred: /var/folders/zn/lmxdw2s96vl_k2_29ksbdnf00000gn/T/tmpg43d8qlk/subtask_1/pred_eng_restaurant.jsonl
+  Loading gold data...
+  Loaded 200 gold records
+  Loading prediction data...
+  Loaded 200 prediction records
+
+  Results:
+    PCC_V (Pearson Valence):  0.8951
+    PCC_A (Pearson Arousal):  0.6737
+    RMSE_VA (Normalized):     1.4223
+    Num Samples:              340
+
+--- Evaluating pred_jpn_finance.jsonl ---
+  Gold: gold_data/gold_jpn_finance.jsonl
+  Pred: /var/folders/zn/lmxdw2s96vl_k2_29ksbdnf00000gn/T/tmpg43d8qlk/subtask_1/pred_jpn_finance.jsonl
+  Loading gold data...
+  Loaded 200 gold records
+  Loading prediction data...
+  Loaded 200 prediction records
+
+  Results:
+    PCC_V (Pearson Valence):  0.8770
+    PCC_A (Pearson Arousal):  0.6200
+    RMSE_VA (Normalized):     0.8630
+    Num Samples:              319
+
+--- Evaluating pred_jpn_hotel.jsonl ---
+  Gold: gold_data/gold_jpn_hotel.jsonl
+  Pred: /var/folders/zn/lmxdw2s96vl_k2_29ksbdnf00000gn/T/tmpg43d8qlk/subtask_1/pred_jpn_hotel.jsonl
+  Loading gold data...
+  Loaded 200 gold records
+  Loading prediction data...
+  Loaded 200 prediction records
+
+  Results:
+    PCC_V (Pearson Valence):  0.9002
+    PCC_A (Pearson Arousal):  0.5617
+    RMSE_VA (Normalized):     1.0462
+    Num Samples:              284
+
+--- Evaluating pred_rus_restaurant.jsonl ---
+  Gold: gold_data/gold_rus_restaurant.jsonl
+  Pred: /var/folders/zn/lmxdw2s96vl_k2_29ksbdnf00000gn/T/tmpg43d8qlk/subtask_1/pred_rus_restaurant.jsonl
+  Loading gold data...
+  Loaded 56 gold records
+  Loading prediction data...
+  Loaded 56 prediction records
+
+  Results:
+    PCC_V (Pearson Valence):  0.9435
+    PCC_A (Pearson Arousal):  0.5578
+    RMSE_VA (Normalized):     1.6411
+    Num Samples:              81
+
+--- Evaluating pred_tat_restaurant.jsonl ---
+  Gold: gold_data/gold_tat_restaurant.jsonl
+  Pred: /var/folders/zn/lmxdw2s96vl_k2_29ksbdnf00000gn/T/tmpg43d8qlk/subtask_1/pred_tat_restaurant.jsonl
+  Loading gold data...
+  Loaded 56 gold records
+  Loading prediction data...
+  Loaded 56 prediction records
+
+  Results:
+    PCC_V (Pearson Valence):  0.8348
+    PCC_A (Pearson Arousal):  0.5957
+    RMSE_VA (Normalized):     1.8956
+    Num Samples:              81
+
+--- Evaluating pred_ukr_restaurant.jsonl ---
+  Gold: gold_data/gold_ukr_restaurant.jsonl
+  Pred: /var/folders/zn/lmxdw2s96vl_k2_29ksbdnf00000gn/T/tmpg43d8qlk/subtask_1/pred_ukr_restaurant.jsonl
+  Loading gold data...
+  Loaded 56 gold records
+  Loading prediction data...
+  Loaded 56 prediction records
+
+  Results:
+    PCC_V (Pearson Valence):  0.9274
+    PCC_A (Pearson Arousal):  0.5688
+    RMSE_VA (Normalized):     1.6756
+    Num Samples:              81
+
+--- Evaluating pred_zho_finance.jsonl ---
+  Gold: gold_data/gold_zho_finance.jsonl
+  Pred: /var/folders/zn/lmxdw2s96vl_k2_29ksbdnf00000gn/T/tmpg43d8qlk/subtask_1/pred_zho_finance.jsonl
+  Loading gold data...
+  Loaded 200 gold records
+  Loading prediction data...
+  Loaded 200 prediction records
+
+  Results:
+    PCC_V (Pearson Valence):  0.8565
+    PCC_A (Pearson Arousal):  0.6506
+    RMSE_VA (Normalized):     0.6871
+    Num Samples:              563
+
+--- Evaluating pred_zho_laptop.jsonl ---
+  Gold: gold_data/gold_zho_laptop.jsonl
+  Pred: /var/folders/zn/lmxdw2s96vl_k2_29ksbdnf00000gn/T/tmpg43d8qlk/subtask_1/pred_zho_laptop.jsonl
+  Loading gold data...
+  Loaded 300 gold records
+  Loading prediction data...
+  Loaded 300 prediction records
+
+  Results:
+    PCC_V (Pearson Valence):  0.8729
+    PCC_A (Pearson Arousal):  0.6932
+    RMSE_VA (Normalized):     0.9400
+    Num Samples:              558
+
+--- Evaluating pred_zho_restaurant.jsonl ---
+  Gold: gold_data/gold_zho_restaurant.jsonl
+  Pred: /var/folders/zn/lmxdw2s96vl_k2_29ksbdnf00000gn/T/tmpg43d8qlk/subtask_1/pred_zho_restaurant.jsonl
+  Loading gold data...
+  Loaded 300 gold records
+  Loading prediction data...
+  Loaded 300 prediction records
+
+  Results:
+    PCC_V (Pearson Valence):  0.8398
+    PCC_A (Pearson Arousal):  0.6982
+    RMSE_VA (Normalized):     0.8228
+    Num Samples:              685
+
+================================================================================
+FINAL EVALUATION SUMMARY - Task 1
+================================================================================
+File                           Lang   Domain       PCC_V      PCC_A      RMSE_VA   
+--------------------------------------------------------------------------------
+pred_eng_laptop.jsonl          eng    laptop       0.7831     0.4839     1.9892    
+pred_eng_restaurant.jsonl      eng    restaurant   0.8951     0.6737     1.4223    
+pred_jpn_finance.jsonl         jpn    finance      0.8770     0.6200     0.8630    
+pred_jpn_hotel.jsonl           jpn    hotel        0.9002     0.5617     1.0462    
+pred_rus_restaurant.jsonl      rus    restaurant   0.9435     0.5578     1.6411    
+pred_tat_restaurant.jsonl      tat    restaurant   0.8348     0.5957     1.8956    
+pred_ukr_restaurant.jsonl      ukr    restaurant   0.9274     0.5688     1.6756    
+pred_zho_finance.jsonl         zho    finance      0.8565     0.6506     0.6871    
+pred_zho_laptop.jsonl          zho    laptop       0.8729     0.6932     0.9400    
+pred_zho_restaurant.jsonl      zho    restaurant   0.8398     0.6982     0.8228    
+--------------------------------------------------------------------------------
+AVERAGE                                            0.8730     0.6104     1.2983    
+================================================================================

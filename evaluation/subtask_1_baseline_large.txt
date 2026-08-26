@@ -1,0 +1,302 @@
+Evaluation Results for: subtask_1_baseline_large.zip
+============================================================
+Extracted from: subtask_1_baseline_large.zip
+Prediction files found: 10
+============================================================
+
+================================================================================
+SemEval 2026 - Task 1 Evaluation (Subtask 1)
+================================================================================
+Using prediction directory: /var/folders/zn/lmxdw2s96vl_k2_29ksbdnf00000gn/T/tmp4y28bmsf/subtask_1
+
+
+[STEP 1] Downloading Gold Label Files...
+--------------------------------------------------------------------------------
+✓ Gold file already exists: gold_eng_laptop.jsonl
+✓ Gold file already exists: gold_eng_restaurant.jsonl
+✓ Gold file already exists: gold_jpn_finance.jsonl
+✓ Gold file already exists: gold_jpn_hotel.jsonl
+✓ Gold file already exists: gold_rus_restaurant.jsonl
+✓ Gold file already exists: gold_tat_restaurant.jsonl
+✓ Gold file already exists: gold_ukr_restaurant.jsonl
+✓ Gold file already exists: gold_zho_finance.jsonl
+✓ Gold file already exists: gold_zho_laptop.jsonl
+✓ Gold file already exists: gold_zho_restaurant.jsonl
+
+✓ Downloaded 10/10 gold files
+
+[STEP 2] Running Evaluation for Task 1...
+--------------------------------------------------------------------------------
+
+--- Evaluating pred_eng_laptop.jsonl ---
+  Gold: gold_data/gold_eng_laptop.jsonl
+  Pred: /var/folders/zn/lmxdw2s96vl_k2_29ksbdnf00000gn/T/tmp4y28bmsf/subtask_1/pred_eng_laptop.jsonl
+  Loading gold data...
+  Loaded 200 gold records
+  Loading prediction data...
+  Loaded 200 prediction records
+
+  Results:
+    PCC_V (Pearson Valence):  0.9186
+    PCC_A (Pearson Arousal):  0.6098
+    RMSE_VA (Normalized):     0.9715
+    Num Samples:              275
+
+--- Evaluating pred_eng_restaurant.jsonl ---
+  Gold: gold_data/gold_eng_restaurant.jsonl
+  Pred: /var/folders/zn/lmxdw2s96vl_k2_29ksbdnf00000gn/T/tmp4y28bmsf/subtask_1/pred_eng_restaurant.jsonl
+  Loading gold data...
+  Loaded 200 gold records
+  Loading prediction data...
+  Loaded 200 prediction records
+
+  Results:
+    PCC_V (Pearson Valence):  0.9324
+    PCC_A (Pearson Arousal):  0.7218
+    RMSE_VA (Normalized):     0.9362
+    Num Samples:              340
+
+--- Evaluating pred_jpn_finance.jsonl ---
+  Gold: gold_data/gold_jpn_finance.jsonl
+  Pred: /var/folders/zn/lmxdw2s96vl_k2_29ksbdnf00000gn/T/tmp4y28bmsf/subtask_1/pred_jpn_finance.jsonl
+  Loading gold data...
+  Loaded 200 gold records
+  Loading prediction data...
+  Loaded 200 prediction records
+
+  Results:
+    PCC_V (Pearson Valence):  0.8761
+    PCC_A (Pearson Arousal):  0.6471
+    RMSE_VA (Normalized):     0.8244
+    Num Samples:              319
+
+--- Evaluating pred_jpn_hotel.jsonl ---
+  Gold: gold_data/gold_jpn_hotel.jsonl
+  Pred: /var/folders/zn/lmxdw2s96vl_k2_29ksbdnf00000gn/T/tmp4y28bmsf/subtask_1/pred_jpn_hotel.jsonl
+  Loading gold data...
+  Loaded 200 gold records
+  Loading prediction data...
+  Loaded 200 prediction records
+
+  Results:
+    PCC_V (Pearson Valence):  0.9159
+    PCC_A (Pearson Arousal):  0.5654
+    RMSE_VA (Normalized):     0.9503
+    Num Samples:              284
+
+--- Evaluating pred_rus_restaurant.jsonl ---
+  Gold: gold_data/gold_rus_restaurant.jsonl
+  Pred: /var/folders/zn/lmxdw2s96vl_k2_29ksbdnf00000gn/T/tmp4y28bmsf/subtask_1/pred_rus_restaurant.jsonl
+  Loading gold data...
+  Loaded 56 gold records
+  Loading prediction data...
+  Loaded 56 prediction records
+
+  Results:
+    PCC_V (Pearson Valence):  0.9462
+    PCC_A (Pearson Arousal):  0.5749
+    RMSE_VA (Normalized):     1.2394
+    Num Samples:              81
+
+--- Evaluating pred_tat_restaurant.jsonl ---
+  Gold: gold_data/gold_tat_restaurant.jsonl
+  Pred: /var/folders/zn/lmxdw2s96vl_k2_29ksbdnf00000gn/T/tmp4y28bmsf/subtask_1/pred_tat_restaurant.jsonl
+  Loading gold data...
+  Loaded 56 gold records
+  Loading prediction data...
+  Loaded 56 prediction records
+
+  Results:
+    PCC_V (Pearson Valence):  0.6598
+    PCC_A (Pearson Arousal):  0.4851
+    RMSE_VA (Normalized):     1.7351
+    Num Samples:              81
+
+--- Evaluating pred_ukr_restaurant.jsonl ---
+  Gold: gold_data/gold_ukr_restaurant.jsonl
+  Pred: /var/folders/zn/lmxdw2s96vl_k2_29ksbdnf00000gn/T/tmp4y28bmsf/subtask_1/pred_ukr_restaurant.jsonl
+  Loading gold data...
+  Loaded 56 gold records
+  Loading prediction data...
+  Loaded 56 prediction records
+
+  Results:
+    PCC_V (Pearson Valence):  0.9416
+    PCC_A (Pearson Arousal):  0.5709
+    RMSE_VA (Normalized):     1.2408
+    Num Samples:              81
+
+--- Evaluating pred_zho_finance.jsonl ---
+  Gold: gold_data/gold_zho_finance.jsonl
+  Pred: /var/folders/zn/lmxdw2s96vl_k2_29ksbdnf00000gn/T/tmp4y28bmsf/subtask_1/pred_zho_finance.jsonl
+  Loading gold data...
+  Loaded 200 gold records
+  Loading prediction data...
+  Loaded 200 prediction records
+
+  Results:
+    PCC_V (Pearson Valence):  0.8441
+    PCC_A (Pearson Arousal):  0.6269
+    RMSE_VA (Normalized):     0.4960
+    Num Samples:              563
+
+--- Evaluating pred_zho_laptop.jsonl ---
+  Gold: gold_data/gold_zho_laptop.jsonl
+  Pred: /var/folders/zn/lmxdw2s96vl_k2_29ksbdnf00000gn/T/tmp4y28bmsf/subtask_1/pred_zho_laptop.jsonl
+  Loading gold data...
+  Loaded 300 gold records
+  Loading prediction data...
+  Loaded 261 prediction records
+Warning: Missing prediction for ID 6696296:S765
+Warning: Missing prediction for ID 6796132:S034
+Warning: Missing prediction for ID 6975932:S005
+Warning: Missing prediction for ID 6699348:S1371
+Warning: Missing prediction for ID 6766954:S008
+Warning: Missing prediction for ID 7101943:S079
+Warning: Missing prediction for ID 6908912:S012
+Warning: Missing prediction for ID 7004773:S005
+Warning: Missing prediction for ID 6920254:S168
+Warning: Missing prediction for ID 7069459:S007
+Warning: Missing prediction for ID 7010970:S056
+Warning: Missing prediction for ID 6772787:S076
+Warning: Missing prediction for ID 6920254:S240
+Warning: Missing prediction for ID 6984479:S008
+Warning: Missing prediction for ID 6797970:S005
+Warning: Missing prediction for ID 6864259:S016
+Warning: Missing prediction for ID 6766729:S005
+Warning: Missing prediction for ID 7036383:S004
+Warning: Missing prediction for ID 6912329:S003
+Warning: Missing prediction for ID 7094394:S051
+Warning: Missing prediction for ID 6845774:S089
+Warning: Missing prediction for ID 6791667:S011
+Warning: Missing prediction for ID 7105703:S235
+Warning: Missing prediction for ID 6820357:S007
+Warning: Missing prediction for ID 6754887:S013
+Warning: Missing prediction for ID 6831862:S005
+Warning: Missing prediction for ID 6902146:S012
+Warning: Missing prediction for ID 6816159:S008
+Warning: Missing prediction for ID 7105703:S459
+Warning: Missing prediction for ID 6920254:S336
+Warning: Missing prediction for ID 6797470:S006
+Warning: Missing prediction for ID 7099211:S002
+Warning: Missing prediction for ID 7024031:S003
+Warning: Missing prediction for ID 6818071:S025
+Warning: Missing prediction for ID 6925879:S004
+Warning: Missing prediction for ID 6790052:S004
+Warning: Missing prediction for ID 6776730:S257
+Warning: Missing prediction for ID 6921961:S005
+Warning: Missing prediction for ID 7096305:S145
+
+  Results:
+    PCC_V (Pearson Valence):  0.9091
+    PCC_A (Pearson Arousal):  0.7405
+    RMSE_VA (Normalized):     0.6745
+    Num Samples:              431
+
+--- Evaluating pred_zho_restaurant.jsonl ---
+  Gold: gold_data/gold_zho_restaurant.jsonl
+  Pred: /var/folders/zn/lmxdw2s96vl_k2_29ksbdnf00000gn/T/tmp4y28bmsf/subtask_1/pred_zho_restaurant.jsonl
+  Loading gold data...
+  Loaded 300 gold records
+  Loading prediction data...
+  Loaded 225 prediction records
+Warning: Missing prediction for ID R6480:S001
+Warning: Missing prediction for ID R5841:S000
+Warning: Missing prediction for ID R6590:S001
+Warning: Missing prediction for ID R7863:S000
+Warning: Missing prediction for ID R7669:S000
+Warning: Missing prediction for ID R10501:S013
+Warning: Missing prediction for ID R6858:S002
+Warning: Missing prediction for ID R7211:S000
+Warning: Missing prediction for ID R5864:S000
+Warning: Missing prediction for ID R7407:S000
+Warning: Missing prediction for ID R10380:S005
+Warning: Missing prediction for ID R5844:S000
+Warning: Missing prediction for ID R9117:S000
+Warning: Missing prediction for ID R7879:S000
+Warning: Missing prediction for ID R8284:S000
+Warning: Missing prediction for ID R10010:S017
+Warning: Missing prediction for ID R7378:S001
+Warning: Missing prediction for ID R6047:S001
+Warning: Missing prediction for ID R6165:S003
+Warning: Missing prediction for ID R7114:S000
+Warning: Missing prediction for ID R5903:S000
+Warning: Missing prediction for ID R6045:S004
+Warning: Missing prediction for ID R5748:S000
+Warning: Missing prediction for ID R6060:S000
+Warning: Missing prediction for ID R6045:S001
+Warning: Missing prediction for ID R8925:S000
+Warning: Missing prediction for ID R9356:S011
+Warning: Missing prediction for ID R10010:S022
+Warning: Missing prediction for ID R7045:S003
+Warning: Missing prediction for ID R9373:S002
+Warning: Missing prediction for ID R6351:S000
+Warning: Missing prediction for ID R6110:S001
+Warning: Missing prediction for ID R10003:S008
+Warning: Missing prediction for ID R5890:S000
+Warning: Missing prediction for ID R9705:S028
+Warning: Missing prediction for ID R6919:S000
+Warning: Missing prediction for ID R10019:S007
+Warning: Missing prediction for ID R6092:S001
+Warning: Missing prediction for ID R6600:S001
+Warning: Missing prediction for ID R9066:S000
+Warning: Missing prediction for ID R6127:S001
+Warning: Missing prediction for ID R5928:S000
+Warning: Missing prediction for ID R10006:S028
+Warning: Missing prediction for ID R9440:S006
+Warning: Missing prediction for ID R10314:S008
+Warning: Missing prediction for ID R9414:S006
+Warning: Missing prediction for ID R9656:S006
+Warning: Missing prediction for ID R9469:S000
+Warning: Missing prediction for ID R10467:S004
+Warning: Missing prediction for ID R5712:S000
+Warning: Missing prediction for ID R10098:S001
+Warning: Missing prediction for ID R9233:S003
+Warning: Missing prediction for ID R9820:S037
+Warning: Missing prediction for ID R9627:S005
+Warning: Missing prediction for ID R5705:S000
+Warning: Missing prediction for ID R6397:S001
+Warning: Missing prediction for ID R6154:S005
+Warning: Missing prediction for ID R10010:S016
+Warning: Missing prediction for ID R5709:S000
+Warning: Missing prediction for ID R10139:S001
+Warning: Missing prediction for ID R5952:S000
+Warning: Missing prediction for ID R9684:S013
+Warning: Missing prediction for ID R5752:S000
+Warning: Missing prediction for ID R9731:S012
+Warning: Missing prediction for ID R5819:S001
+Warning: Missing prediction for ID R6420:S002
+Warning: Missing prediction for ID R5719:S000
+Warning: Missing prediction for ID R10511:S008
+Warning: Missing prediction for ID R9938:S006
+Warning: Missing prediction for ID R5814:S000
+Warning: Missing prediction for ID R5893:S000
+Warning: Missing prediction for ID R7510:S001
+Warning: Missing prediction for ID R6090:S000
+Warning: Missing prediction for ID R7958:S000
+Warning: Missing prediction for ID R10501:S005
+
+  Results:
+    PCC_V (Pearson Valence):  0.8759
+    PCC_A (Pearson Arousal):  0.7300
+    RMSE_VA (Normalized):     0.7485
+    Num Samples:              416
+
+================================================================================
+FINAL EVALUATION SUMMARY - Task 1
+================================================================================
+File                           Lang   Domain       PCC_V      PCC_A      RMSE_VA   
+--------------------------------------------------------------------------------
+pred_eng_laptop.jsonl          eng    laptop       0.9186     0.6098     0.9715    
+pred_eng_restaurant.jsonl      eng    restaurant   0.9324     0.7218     0.9362    
+pred_jpn_finance.jsonl         jpn    finance      0.8761     0.6471     0.8244    
+pred_jpn_hotel.jsonl           jpn    hotel        0.9159     0.5654     0.9503    
+pred_rus_restaurant.jsonl      rus    restaurant   0.9462     0.5749     1.2394    
+pred_tat_restaurant.jsonl      tat    restaurant   0.6598     0.4851     1.7351    
+pred_ukr_restaurant.jsonl      ukr    restaurant   0.9416     0.5709     1.2408    
+pred_zho_finance.jsonl         zho    finance      0.8441     0.6269     0.4960    
+pred_zho_laptop.jsonl          zho    laptop       0.9091     0.7405     0.6745    
+pred_zho_restaurant.jsonl      zho    restaurant   0.8759     0.7300     0.7485    
+--------------------------------------------------------------------------------
+AVERAGE                                            0.8820     0.6272     0.9817    
+================================================================================
