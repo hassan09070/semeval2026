@@ -33,6 +33,15 @@ augmentation pipeline in [`../`](..).
 | `eng_laptop.jsonl` | 4,222 | Laptop |
 | `eng_restaurant.jsonl` | 2,780 | Restaurant |
 
+## `back_translation/`
+
+Round-trip back-translation (English → German → English) used by the `st1-BT`
+ablation. Preserves quadruplet labels while paraphrasing the sentence text.
+
+| File | Instances | Route |
+|---|--:|---|
+| `eng_restaurant_de.jsonl` | 2,052 | eng → deu → eng, restaurant domain |
+
 ## Generation
 
 Produced by the scripts one level up — `augmentation.py`, `aug2.py`, `aug3.py`,
