@@ -185,7 +185,9 @@ MR augmentation at all — pure human annotation remains the strongest cross-lin
 ├── final_submission/       The submitted systems — 5 notebooks, ST1/ST2/ST3
 ├── subtask1_ablations/     11 ST1 training variants (one per ablation config)
 ├── augmentation/           Data augmentation pipelines
-│   └── data/               Gemini-generated synthetic instances (eng + zho)
+│   └── data/               Augmented training data (see its README)
+│       ├── gemini_synthetic/    Gemini-generated instances (eng raw/cleaned, zho)
+│       └── train_alltasks/      Expanded English splits (laptop, restaurant)
 ├── evaluation/             Official metric implementation + harness
 │   ├── gold_data/          Gold labels, 10 language-domain pairs
 │   ├── reports/            Official DimABSA evaluation result PDFs
@@ -228,7 +230,8 @@ quadruplets. Aspect and opinion may be *implicit*, represented as `NULL`.
 | What's in this repo | Where |
 |---|---|
 | Gold labels (10 language-domain pairs) | [`evaluation/gold_data/`](evaluation/gold_data) |
-| Gemini synthetic augmentation (eng, zho) | [`augmentation/data/`](augmentation/data) |
+| Gemini synthetic augmentation (eng, zho) | [`augmentation/data/gemini_synthetic/`](augmentation/data/gemini_synthetic) |
+| Expanded English training splits (laptop, restaurant) | [`augmentation/data/train_alltasks/`](augmentation/data/train_alltasks) |
 | Per-run evaluation scores | [`evaluation/summary.txt`](evaluation/summary.txt) |
 | Official result reports | [`evaluation/reports/`](evaluation/reports) |
 
